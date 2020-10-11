@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅</title>
+    <script
+      src="https://kit.fontawesome.com/512b03a6cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/styles.css" rel="stylesheet" />
+
+  </head>
+  <body id = "chat-screen">
+    <div class = "status-bar">
+      <div class = "status-bar__column">
+        <span>WIFI is on</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class = "status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class = "status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href = "chats.html"><i class ="fas fa-angle-left fa-2x"></a></i>
+        </div>
+        <div class="alt-header__column">
+            <h1 class = "alt-header__title">이혜연</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class = "fas fa-search fa-lg"></i></span>
+            <span><i class = "fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+<main class = "main-screen main-chat">
+    
+    <div class = "chat__timestamp">
+        일요일, 10월 11일, 2020
+      </div>
+
+      <div class = "message-row message-row--other">
+          <img src="https://d2u3dcdbebyaiu.cloudfront.net/uploads/atch_img/436/8142f53e51d2ec31bc0fa4bec241a919_crop.jpeg"/>
+          <div class ="message-row__content">
+            <span class = "message__author">이혜연</span>
+            <div class = "message__info">
+                <span class=  "message__text">
+                    안녕!
+                </span>
+                <span class = "message__time">
+                    21:22
+                </span>
+            </div>
+          </div>
+      </div>
+
+      
+      <div class = "message-row message-row--mine">
+        
+        <div class ="message-row__content">
+         
+          <div class = "message__info">
+              <span class=  "message__text">
+                  사랑해
+              </span>
+              <span class = "message__time">
+                  21:22
+              </span>
+          </div>
+        </div>
+    </div>
+</main>
+
+<form class = "form">
+    <div class = "form__column">
+        <i class = "far fa-plus-square fa-lg"></i>
+    </div>
+
+    <div class = "form__column">
+        <input type = "text" placeholder = "yeah..."/>
+        <i class = "far fa-smile-wink fa-lg"></i>
+        <button>
+            Enter
+        </button>
+    </div>
+</form>
+<div id = "no-mobile">
+  <span>너무 크니까 조금만 줄여주세요!</span>
+  <i class="fas fa-democrat"></i>
+</div>
+  </body>
+</html>

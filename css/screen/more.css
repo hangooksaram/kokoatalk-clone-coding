@@ -25,7 +25,14 @@
   margin-right: 30px;
 }
 
-.more-suggestions__icon-image {
+.more-suggestions__icon-img {
   width: 60px;
   height: 60px;
+  background-color: gold;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
 }

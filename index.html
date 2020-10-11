@@ -14,7 +14,7 @@
   <body>
     <div class = "status-bar">
       <div class = "status-bar__column">
-        <span>No Service</span>
+        <span>WIFI is on</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class = "status-bar__column">
@@ -27,17 +27,25 @@
     </div>
 
     <header class = "welcome-header">
-      <h1 class = "welcome-header__title">Welcome to Kokoa clone</h1>
+      <i class="fas fa-democrat fa-3x"></i>
+      <h1 class = "welcome-header__title">유니콘톡에 오신걸 환영합니다!</h1>
       <p class = "welcome-header__text">
-        코코아톡 계정이 있다면 로그인 해주세요
+       유니콘톡 계정이 있다면 로그인 해주세요
       </p>
     </header>
 
     <form action ="friends.html" method = "get" id = "login-form">
-      <input type="text"  method ="" placeholder="Email or Phone Number"/>
-      <input type="password" placeholder="Password"/>
-      <input type = "submit" value = "Log In"/>
-    <a href = "#">계정을 찾기</a>
+      <input type="text"  method ="" placeholder="이메일이나 핸드폰 번호"/>
+      <input type="password" placeholder="비밀번호"/>
+      <input type = "submit" value = "로그인 하기"/>
+    <a class = "find-account" href = "#">계정을 찾기</a>
     </form>
+    <div id = "splash-screen">
+      <i class="fas fa-democrat"></i>
+  </div>
+    <div id = "no-mobile">
+      <span>너무 크니까 조금만 줄여주세요!</span>
+      <i class="fas fa-democrat"></i>
+  </div>
   </body>
 </html>

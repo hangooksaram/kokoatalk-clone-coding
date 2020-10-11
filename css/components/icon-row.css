@@ -15,6 +15,11 @@
   font-size: 35px;
 }
 
+.icon-row__icon i:hover {
+  font-size: 40px;
+  color: var(--main-color);
+}
+
 .icon-row__icon span {
   margin-top: 18px;
 }

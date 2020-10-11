@@ -7,6 +7,7 @@
 }
 
 .welcome-header__title {
+  margin-top: 10px;
   margin-bottom: 20px;
   font-size: 25px;
   font-weight: 600;
@@ -29,8 +30,21 @@
   margin-bottom: 25px;
 }
 
+.find-account {
+  width: auto;
+  padding: 10px;
+}
+
+.find-account:hover {
+  background-color: var(--main-color);
+}
+
 #login-form input::placeholder {
   color: var(--color-gray);
+}
+
+#login-form input:focus::placeholder {
+  color: white;
 }
 
 #login-form input:not([type="submit"]) {
@@ -39,11 +53,11 @@
 }
 
 #login-form input:focus {
-  border-color: var(--purple);
+  border-color: var(--main-color);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--purple);
+  background-color: var(--main-color);
   cursor: pointer;
   padding: 15px 0px;
   border-radius: 5px;

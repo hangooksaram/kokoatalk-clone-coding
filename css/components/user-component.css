@@ -2,16 +2,36 @@
   justify-content: space-between;
 }
 
+.user-component__column {
+  margin-bottom: 30px;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
 }
 
+.user-me {
+  margin-bottom: -3px;
+}
+
 .user-component__column:last-child {
   color: var(--color-gray);
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.user-component__state {
+  background-color: white;
+  border: 2px solid var(--main-color);
+  width: auto;
+  height: 35px;
+  padding: 0px 10px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 

@@ -1,0 +1,38 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 150vh;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  width: 100vw;
+  top: 0;
+}
+
+@keyframes iconAnimation {
+  0% {
+    transform: rotateZ(-30deg);
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: rotateZ(-30deg);
+  }
+}
+
+#no-mobile i {
+  margin-top: 40px;
+  font-size: 150px;
+  color: white;
+  animation: iconAnimation 0.9s ease-in-out infinite;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
