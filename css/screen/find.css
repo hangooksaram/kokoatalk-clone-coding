@@ -60,6 +60,13 @@
   height: 15px;
   border-radius: 5px;
   margin-right: 3px;
+
+  cursor: pointer;
+  transition: all 2s linear;
+}
+
+.open-post__members img:hover {
+  filter: brightness(50%);
 }
 
 .open-post__members-count {
@@ -85,12 +92,23 @@
 
 .open-post__photo {
   position: relative;
+  cursor: pointer;
 }
 
 .open-post__photo > img {
   width: 120px;
   height: 120px;
   border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.open-post__photo > img:hover {
+  filter: brightness(70%);
+}
+
+.open-post__photo > img:hover + .open-post__heart {
+  color: red;
+  font-size: 18px;
 }
 
 .open-post__heart {

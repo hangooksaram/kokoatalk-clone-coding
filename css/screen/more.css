@@ -28,7 +28,7 @@
 .more-suggestions__icon-img {
   width: 60px;
   height: 60px;
-  background-color: gold;
+  background-color: var(--main-color);
   border-radius: 5px;
   display: flex;
   justify-content: center;

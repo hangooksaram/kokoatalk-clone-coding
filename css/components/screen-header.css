@@ -65,6 +65,7 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+  cursor: pointer;
 }
 
 .fa-cog:hover {
@@ -81,4 +82,31 @@
 
 .fa-comment-dots:hover {
   animation: chaticonAnimation 0.3s linear forwards;
+}
+
+.fa-search:focus + #not-yet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  position: absolute;
+  width: 100vw;
+  height: 150vh;
+  top: 0;
+  font-size: 122px;
+  animation: not ease-in-out 1s forwards;
+}
+
+@keyframes not {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.fa-search:focus #not-yet {
+  color: red;
 }
