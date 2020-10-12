@@ -84,29 +84,21 @@
   animation: chaticonAnimation 0.3s linear forwards;
 }
 
-.fa-search:focus + #not-yet {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--main-color);
+/*
+.not-yet-box {
+  display: none;
+}
+.not-yet-box:target {
   position: absolute;
-  width: 100vw;
-  height: 150vh;
+  right: 180px;
   top: 0;
-  font-size: 122px;
-  animation: not ease-in-out 1s forwards;
+  border-radius: 10%;
+  opacity: 0.9;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
 }
-
-@keyframes not {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-.fa-search:focus #not-yet {
-  color: red;
-}
+*/
